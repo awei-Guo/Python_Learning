@@ -23,5 +23,8 @@ poetry install
 ```
 ## 运行函数练习示例：
 ```bash
-poetry run python Function_Learning/tests/Function_tests.py
+cd Function_Learning
+poetry shell
+python ./tests/Function_test.py
+exit
 ```
